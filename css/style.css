@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#homeSection{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/header-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeTexts{
+    width: 40%;
+    margin-top: -50px;
+}
+.homeTexts h2{
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+.homeTexts h1{
+    font-size: 45px;
+    color: #E94F79;
+    margin-bottom: 19px;
+}
+.homeTexts p{
+    
+color: dimgray;
+    
+margin-bottom: 25px;
+}
+.homeBtn{
+    display: inline-block;
+    padding: 10px 15px;
+    background: linear-gradient(45deg,#E94F79,rgb(255, 0, 106));
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.homeImg{
+    width: 40%;
+}
+.homeImg img{
+    width: 100%;
+}
